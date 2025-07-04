@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="home-page">
       <div className="hero-section">
         <div className="container">
-          <h1 className="hero-title">🏥 Pharmacist's AI Assistant</h1>
+          <h1 className="hero-title">EasePharm💊</h1>
           <p className="hero-subtitle">
             Automatically process handwritten prescriptions and match them against patient orders using AI
           </p>

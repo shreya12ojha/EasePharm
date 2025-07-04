@@ -173,7 +173,7 @@ const DashboardPageWithDB = () => {
           <div className="stat-card">
             <div className="stat-icon">📅</div>
             <div className="stat-content">
-              <h3>Today's Orders</h3>
+              <h3>Today&apos;s Orders</h3>
               <div className="stat-number">{stats.todayOrders}</div>
             </div>
           </div>
