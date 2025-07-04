@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ConnectionTest from "../components/ConnectionTest";
 import "./UploadPage.css";
+import { Image } from "lucide-react";
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
@@ -272,7 +273,7 @@ const UploadPageFixed = () => {
             <div className="file-drop-zone">
               {preview ? (
                 <div className="preview-container">
-                  <img
+                  <Image
                     src={preview || "/placeholder.svg"}
                     alt="Preview"
                     className="preview-image"
